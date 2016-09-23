@@ -12,6 +12,7 @@
 		C968637A1D935A7F009FA9CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C96863781D935A7F009FA9CC /* Main.storyboard */; };
 		C968637C1D935A7F009FA9CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C968637B1D935A7F009FA9CC /* Assets.xcassets */; };
 		C968637F1D935A7F009FA9CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C968637D1D935A7F009FA9CC /* LaunchScreen.storyboard */; };
+		C96863BD1D94CCF2009FA9CC /* Shaders.metal in Sources */ = {isa = PBXBuildFile; fileRef = C96863BC1D94CCF2009FA9CC /* Shaders.metal */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		C968637B1D935A7F009FA9CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C968637E1D935A7F009FA9CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C96863801D935A7F009FA9CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C96863BC1D94CCF2009FA9CC /* Shaders.metal */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.metal; path = Shaders.metal; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				C96863741D935A7F009FA9CC /* AppDelegate.swift */,
 				C96863761D935A7F009FA9CC /* ViewController.swift */,
+				C96863BC1D94CCF2009FA9CC /* Shaders.metal */,
 				C96863781D935A7F009FA9CC /* Main.storyboard */,
 				C968637B1D935A7F009FA9CC /* Assets.xcassets */,
 				C968637D1D935A7F009FA9CC /* LaunchScreen.storyboard */,
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C96863BD1D94CCF2009FA9CC /* Shaders.metal in Sources */,
 				C96863771D935A7F009FA9CC /* ViewController.swift in Sources */,
 				C96863751D935A7F009FA9CC /* AppDelegate.swift in Sources */,
 			);
@@ -302,6 +306,7 @@
 				C96863851D935A7F009FA9CC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
